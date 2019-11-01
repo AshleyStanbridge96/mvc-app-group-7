@@ -9,7 +9,7 @@ const express = require('express')
 const api = express.Router()
 // const Model = require('../models/developer.js')
 const find = require('lodash.find')
-const notfoundstring = 'Could not find developer with id='
+const notfoundstring = 'Could not find student with id='
 
 // RESPOND WITH JSON DATA  --------------------------------------------
 

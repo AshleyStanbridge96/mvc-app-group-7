@@ -1,0 +1,13 @@
+[
+  {
+    "_id": 100,
+    "given": "Denise",
+    "family": "Case",
+    "email": "dcase@nwmissouri.edu",
+    "gpa": 90,
+    "github": "http://github.com",
+    "website": "http://soemwebsite.com",
+    "sectionId": 1
+   
+  }
+]
