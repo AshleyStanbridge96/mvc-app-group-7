@@ -1,0 +1,10 @@
+[
+    {
+        "_id": 36,
+        "given": "Michael",
+        "family": "Rogers",
+        "email": "michael@nwmissouri.edu",
+        "salary": 80000,
+        "github": "github.com/probablydrrogers"
+    }
+]
