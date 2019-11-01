@@ -48,7 +48,7 @@ const DeveloperSchema = new mongoose.Schema({
     minlength: 4,
     maxlength: 100,
     required: false,
-    default: 'http://soemwebsite.com'
+    default: 'http://somewebsite.com'
   },
   sectionId: {
     type: Number,
