@@ -36,11 +36,11 @@ const CourseSchema = new mongoose.Schema({
   },
   inSummer: {
     type: Boolean,
-    required: true,
+    required: true
   },
   inFall: {
     type: Boolean,
-    required: true,
+    required: true
   }
 
 })

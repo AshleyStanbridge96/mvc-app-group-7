@@ -2,7 +2,7 @@
 
 const mongoose = require('mongoose')
 
-//Changed DeveloperSchema to InstructorSchema
+// Changed DeveloperSchema to InstructorSchema
 const InstructorSchema = new mongoose.Schema({
 
   _id: {
@@ -35,7 +35,7 @@ const InstructorSchema = new mongoose.Schema({
     type: Number,
     min: 10000,
     max: 100000,
-    required: false,
+    required: false
   },
   github: {
     type: String,
@@ -43,6 +43,6 @@ const InstructorSchema = new mongoose.Schema({
     maxlength: 100,
     required: false,
     default: 'http://github.com'
-  },
+  }
 })
 module.exports = mongoose.model('Instructor', InstructorSchema)
