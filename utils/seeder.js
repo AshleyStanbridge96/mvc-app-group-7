@@ -35,10 +35,10 @@ module.exports = (app) => {
   console.log(`${app.locals.course.query.length} courses seeded`)
 
   app.locals.instructor = db.instructor.find(instructorData)
-  console.log(`${app.locals.course.query.length} instructors seeded`)
+  console.log(`${app.locals.instructor.query.length} instructors seeded`)
 
   app.locals.section = db.section.find(sectionData)
-  console.log(`${app.locals.course.query.length} sections seeded`)
+  console.log(`${app.locals.section.query.length} sections seeded`)
 
 
   console.log('END Data Seeder. Sample data read and verified.')
