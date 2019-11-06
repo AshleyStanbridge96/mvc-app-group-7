@@ -1,12 +1,59 @@
 [
-    {
-      "_id": 100,
-      "sectionNumber": "45603",
-      "days": "120 days",
-      "startTime": 8,
-      "roomNumber": "CH1200",
-      "instructorId": 43,
-      "courseId": 20
-     
-    }
-  ]
+  {
+    "_id": 119,
+    "sectionNumber": "01",
+    "days": "MWF",
+    "startTime": 1200,
+    "roomNumber": 94,
+    "instructorId": 107,
+    "courseId": 44563
+  },
+  {
+    "_id": 120,
+    "sectionNumber": "02",
+    "days": "MWF",
+    "startTime": 1100,
+    "roomNumber": 94,
+    "instructorId": 108,
+    "courseId": 44563
+  },
+  {
+    "_id": 121,
+    "sectionNumber": "03",
+    "days": "MWF",
+    "startTime": 1000,
+    "roomNumber": 94,
+    "instructorId": 107,
+    "courseId": 44563
+
+  },
+  {
+    "_id": 122,
+    "sectionNumber": "02",
+    "days": "MWF",
+    "startTime": 1100,
+    "roomNumber": 94,
+    "instructorId": 108,
+    "courseId": 44563
+
+  },
+  {
+    "_id": 123,
+    "sectionNumber": "01",
+    "days": "MWF",
+    "startTime": 1200,
+    "roomNumber": 94,
+    "instructorId": 107,
+    "courseId": 44563
+
+  },
+  {
+    "_id": 124,
+    "sectionNumber": "03",
+    "days": "MWF",
+    "startTime": 1000,
+    "roomNumber": 94,
+    "instructorId": 107,
+    "courseId": 44563
+  }
+]
