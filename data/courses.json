@@ -1,10 +1,55 @@
 [
     {
-        "_id": 20, 
+        "_id": 112, 
         "School number": "44",
         "Course number": "563",
         "Name": "Developing Web Apps and Services",
-        "inSpring": false,
+        "inSpring": true,
+        "inSummer": false,
+        "inFall": true
+    },
+    {
+        "_id": 113, 
+        "School number": "44",
+        "Course number": "141",
+        "Name": "Computer Programming I",
+        "inSpring": true,
+        "inSummer": true,
+        "inFall": true
+    },
+    {
+        "_id": 114, 
+        "School number": "44",
+        "Course number": "242",
+        "Name": "Data Structures",
+        "inSpring": true,
+        "inSummer": false,
+        "inFall": true
+    },
+    {
+        "_id": 115, 
+        "School number": "44",
+        "Course number": "345",
+        "Name": "Computer Organization",
+        "inSpring": true,
+        "inSummer": false,
+        "inFall": false
+    },
+    {
+        "_id": 116, 
+        "School number": "44",
+        "Course number": "356",
+        "Name": "Network Fundamentals",
+        "inSpring": true,
+        "inSummer": false,
+        "inFall": true
+    },
+    {
+        "_id": 117, 
+        "School number": "44",
+        "Course number": "460",
+        "Name": "Database Systems",
+        "inSpring": true,
         "inSummer": false,
         "inFall": true
     }
