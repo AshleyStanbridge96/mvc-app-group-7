@@ -4,10 +4,65 @@
     "given": "priyanka",
     "family": "Bodapati",
     "email": "S536973@nwmissouri.edu",
-    "gpa": 90,
+    "gpa": 94,
     "github": "http://github.com",
     "website": "http://soemwebsite.com",
     "sectionId": 44563
-   
+
+  },
+  {
+    "_id": 101,
+    "given": "Ashley",
+    "family": "Stanbridge",
+    "email": "Ashley@nwmissouri.edu",
+    "gpa": 95,
+    "github": "http://github.com",
+    "website": "http://soemwebsite.com",
+    "sectionId": 44563
+
+  },
+  {
+    "_id": 102,
+    "given": "Tyler",
+    "family": "Jacobson",
+    "email": "tylor@nwmissouri.edu",
+    "gpa": 97,
+    "github": "http://github.com",
+    "website": "http://soemwebsite.com",
+    "sectionId": 44563
+
+  },
+  {
+    "_id": 103,
+    "given": "Kelsie",
+    "family": "Dibben",
+    "email": "kelsie@nwmissouri.edu",
+    "gpa": 95,
+    "github": "http://github.com",
+    "website": "http://soemwebsite.com",
+    "sectionId": 44563
+
+  },
+  {
+    "_id": 104,
+    "given": "naveen",
+    "family": "gajavalli",
+    "email": "naveen@nwmissouri.edu",
+    "gpa": 99,
+    "github": "http://github.com",
+    "website": "http://soemwebsite.com",
+    "sectionId": 44563
+
+  },
+  {
+    "_id": 105,
+    "given": "mohan",
+    "family": "pratapa",
+    "email": "naveen@nwmissouri.edu",
+    "gpa": 98,
+    "github": "http://github.com",
+    "website": "http://soemwebsite.com",
+    "sectionId": 44563
+
   }
 ]
