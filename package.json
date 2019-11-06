@@ -2,7 +2,7 @@
   "name": "node-express",
   "description": "Express web app using MVC (no views yet)",
   "version": "1.0.0",
-  "author": "Denise Case",
+  "author": "Group 7",
   "dependencies": {
     "config": "latest",
     "express": "latest",

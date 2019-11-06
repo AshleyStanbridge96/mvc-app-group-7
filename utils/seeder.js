@@ -14,7 +14,6 @@ module.exports = (app) => {
   db.course = new Datastore() // new object property
   db.instructor = new Datastore() //new object property
 
-  db.developer.loadDatabase() // call the loadDatabase method
   db.student.loadDatabase() // call the loadDatabase method
   db.course.loadDatabase() // call the loadDatabase method
   db.instructor.loadDatabase() //call the loadDatabase method
