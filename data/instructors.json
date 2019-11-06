@@ -1,10 +1,53 @@
 [
     {
-        "_id": 40,
-        "given": "Michael",
-        "family": "Rogers",
-        "email": "michael@nwmissouri.edu",
-        "salary": 80000,
-        "github": "github.com/probablydrrogers"
+      "_id": 106,
+      "given": "Aziz",
+      "family": "Fellah",
+      "email": "AFELLAH@nwmissouri.edu",
+      "salary": 70000,
+      "github": "http://github.com"  
+    },
+    {
+      "_id": 107,
+      "given": "Denise",
+      "family": "Case",
+      "email": "DCASE@nwmissouri.edu",
+      "salary": 100000,
+      "github": "http://github.com"  
+    },
+    {
+      "_id": 108,
+      "given": "Diana",
+      "family": "Linville",
+      "email": "DIANAR@nwmissouri.edu",
+      "salary": 80000,
+      "github": "http://github.com"  
+    },
+    {
+      "_id": 109,
+      "given": "Nathan",
+      "family": "Eloe",
+      "email": "nathane@nwmissouri.edu",
+      "salary": 80000,
+      "github": "http://github.com"  
+  
+    },
+    {
+      "_id": 110,
+      "given": "Charles",
+      "family": "Hoot",
+      "email": "hoot@nwmissouri.edu",
+      "salary": 100000,
+      "github": "http://github.com"  
+  
+    },
+    {
+      "_id": 111,
+      "given": "Doug",
+      "family": "Hawley",
+      "email": "hawley@nwmissouri.edu",
+      "salary": 100000,
+      "github": "http://github.com" 
+  
     }
-]
+  ]
