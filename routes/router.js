@@ -23,6 +23,7 @@ router.get('/index', (req, res, next) => {
   res.sendFile('index.html')
 })
 
+
 // Defer path requests to a particular controller
 router.use('/stu', require('../controllers/student.js'))
 router.use('/crs', require('../controllers/course.js'))

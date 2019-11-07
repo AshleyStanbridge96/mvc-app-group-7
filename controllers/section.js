@@ -1,6 +1,6 @@
 /**
 *  Section controller
-*  Handles requests related to developer resources.
+*  Handles requests related to section resources.
 *
 * @author Group7
 *
