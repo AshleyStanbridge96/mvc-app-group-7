@@ -34,7 +34,7 @@ api.get('/findone/:id', (req, res) => {
 
 // GET to this controller base URI (the default)
 api.get('/', (req, res) => {
-  res.render('section/index.ejs', {
+  res.render('index.html', {
     developers: req.app.locals.developers.query
   })
 })

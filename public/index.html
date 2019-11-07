@@ -2,116 +2,263 @@
 <html lang='en'>
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Chat</title>
+    <title>Chat</title>
 
-  <!-- get styles from https://mdbootstrap.com/md-bootstrap-cdn/ -->
+    <!-- get styles from https://mdbootstrap.com/md-bootstrap-cdn/ -->
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-  <!-- Bootstrap core CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-  <!-- https://mdbootstrap.com/docs/jquery/navigation/navbar/ -->
-  <nav class="navbar navbar-expand-lg navbar-dark primary-color">
-    <a class="navbar-brand" href="#">WebApps</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-      aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="basicExampleNav">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home
-            <span class="sr-only">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">Developers</a>
-          <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Section 01</a>
-            <a class="dropdown-item" href="#">Section 02</a>
-            <a class="dropdown-item" href="#">Section 03</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    <!-- https://mdbootstrap.com/docs/jquery/navigation/navbar/ -->
+    <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+        <a class="navbar-brand" href="#">WebApps</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Developers</a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Section 01</a>
+                        <a class="dropdown-item" href="#">Section 02</a>
+                        <a class="dropdown-item" href="#">Section 03</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-  <main class="container-fluid">
-    <div class=row>
-      <div class="col col-md-12">
-        <br />
-        <h1>Web App Developers - Fall 2019</h1>
-        <br />
-        <hr>
-        <h3>During development, test api here.</h3>
-        <br />
-        <br />
-        <br />
-        <h4>GET Developer JSON by URL</h4>
-        <ol>
-          <li>
-            <a href="http://localhost:3004/dev/findall">http://localhost:3004/dev/findall</a>
-          </li>
-          <li>
-            <a href="http://localhost:3004/dev/findone/99">http://localhost:3004/dev/findone/99</a>
-          </li>
-          <li>
-            <a href="http://localhost:3004/dev/findone/91">http://localhost:3004/dev/findone/91</a>
-          </li>
-          <li>
-            <a href="http://localhost:3004/dev/findone/92">http://localhost:3004/dev/findone/92</a>
-          </li>
-          <li>
-            <a href="http://localhost:3004/dev/findone/93">http://localhost:3004/dev/findone/93</a>
-          </li>
-          <li>
-            <a href="http://localhost:3004/dev/findone/122">http://localhost:3004/dev/findone/122</a>
-          </li>
-          <li>
-            <a href="http://localhost:3004/dev/findall">http://localhost:3004/stu/findall</a>
-          </li>
-          <li>
-            <a href="http://localhost:3004/dev/findone/100">http://localhost:3004/stu/findone/100</a>
-          </li>
-          <li>
-            <a href="http://localhost:3004/dev/findone/100">http://localhost:3004/crs/findone/20</a>
-          </li>
-          <li>
-            <a href="http://localhost:3004/newpage">http://localhost:3004/newpage</a>
-          </li>
-        </ol>
-      </div>
-    </div>
-  </main>
-  <hr>
+    <main class="container-fluid">
+        <div class=row>
+            <div class="col col-md-12">
+                <br />
+                <h1>Web App Developers - Fall 2019</h1>
+                <br />
+                <hr>
+                <h3>During development, test api here.</h3>
+                <br />
+                <br />
+                <br />
+                    <h4>Student: Test GET JSON by URL</h4>
+                    <ol>
+                        <li>
+                            <a href="http://localhost:3004/stu/findall">http://localhost:3004/stu/findall</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/stu/findone/100">http://localhost:3004/stu/findone/100</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/stu/findone/101">http://localhost:3004/stu/findone/101</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/stu/findone/102">http://localhost:3004/stu/findone/102</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/stu/findone/103">http://localhost:3004/stu/findone/103</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/stu/findone/104">http://localhost:3004/stu/findone/104</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/newpage">http://localhost:3004/newpage</a>
+                        </li>
+                    </ol>
 
-  <footer class="container">
-    <p>&copy; 2019 Web Apps Fall 2019</p>
-    <p class="text-muted"><a href="https://bitbucket.org/professorcase/node-express">Source</a></p>
-  </footer>
+                    <br>
 
-  <!-- get from https://mdbootstrap.com/md-bootstrap-cdn/ -->
+                    <h4>Instructor: Test GET JSON by URL</h4>
+                    <ol>
+                        <li>
+                            <a href="http://localhost:3004/inst/findall">http://localhost:3004/inst/findall</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/inst/findone/106">http://localhost:3004/inst/findone/106</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/inst/findone/107">http://localhost:3004/inst/findone/107</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/inst/findone/108">http://localhost:3004/inst/findone/108</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/inst/findone/109">http://localhost:3004/inst/findone/109</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/inst/findone/110">http://localhost:3004/inst/findone/110</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/newpage">http://localhost:3004/newpage</a>
+                        </li>
+                    </ol>
 
-  <!-- JQuery -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js"></script>
+                    <br>
+
+                    <h4>Section: Test GET JSON by URL</h4>
+                    <ol>
+                        <li>
+                            <a href="http://localhost:3004/sec/findall">http://localhost:3004/sec/findall</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/sec/findone/119">http://localhost:3004/sec/findone/119</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/sec/findone/120">http://localhost:3004/sec/findone/120</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/sec/findone/121">http://localhost:3004/sec/findone/121</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/sec/findone/122">http://localhost:3004/sec/findone/122</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/sec/findone/123">http://localhost:3004/sec/findone/123</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/newpage">http://localhost:3004/newpage</a>
+                        </li>
+                    </ol>
+
+                    <br>
+
+                    <h4>Course: Test GET JSON by URL</h4>
+                    <ol>
+                        <li>
+                            <a href="http://localhost:3004/crs/findall">http://localhost:3004/crs/findall</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/crs/findone/112">http://localhost:3004/crs/findone/112</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/crs/findone/113">http://localhost:3004/crs/findone/113</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/crs/findone/114">http://localhost:3004/crs/findone/114</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/crs/findone/115">http://localhost:3004/crs/findone/115</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/crs/findone/116">http://localhost:3004/crs/findone/116</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3004/newpage">http://localhost:3004/newpage</a>
+                        </li>
+                    </ol>
+
+                    <br>
+                    <hr>
+
+                <h4>Student: Test Requests to GET a view</h4>
+                <ol>
+                    <li> <a href="http://localhost:3004/student">http://localhost:3004/student</a>
+                    </li>
+                    <li> <a href="http://localhost:3004/student/create">http://localhost:3004/student/create</a>
+                    </li>
+                    <li> <a href="http://localhost:3004/student/edit/100">http://localhost:3004/student/edit/100</a>
+                    </li>
+                    <li> <a
+                            href="http://localhost:3004/student/delete/101">http://localhost:3004/student/delete/101</a>
+                    </li>
+                    <li> <a
+                            href="http://localhost:3004/student/details/102">http://localhost:3004/student/details/102</a>
+                    </li>
+                </ol>
+
+                <br>
+
+                <h4>Instructor: Test Requests to GET a view</h4>
+                <ol>
+                    <li> <a href="http://localhost:3004/instructor">http://localhost:3004/instructor</a>
+                    </li>
+                    <li> <a href="http://localhost:3004/instructor/create">http://localhost:3004/instructor/create</a>
+                    </li>
+                    <li> <a href="http://localhost:3004/instructor/edit/106">http://localhost:3004/instructor/edit/106</a>
+                    </li>
+                    <li> <a
+                            href="http://localhost:3004/instructor/delete/107">http://localhost:3004/instructor/delete/107</a>
+                    </li>
+                    <li> <a
+                            href="http://localhost:3004/instructor/details/108">http://localhost:3004/instructor/details/108</a>
+                    </li>
+                </ol>
+
+                <br>
+
+                <h4>Section: Test Requests to GET a view</h4>
+                <ol>
+                    <li> <a href="http://localhost:3004/section">http://localhost:3004/section</a>
+                    </li>
+                    <li> <a href="http://localhost:3004/section/create">http://localhost:3004/section/create</a>
+                    </li>
+                    <li> <a href="http://localhost:3004/section/edit/119">http://localhost:3004/section/edit/119</a>
+                    </li>
+                    <li> <a
+                            href="http://localhost:3004/section/delete/120">http://localhost:3004/section/delete/120</a>
+                    </li>
+                    <li> <a
+                            href="http://localhost:3004/section/details/121">http://localhost:3004/section/details/121</a>
+                    </li>
+                </ol>
+
+                <br>
+
+                <h4>Course: Test Requests to GET a view</h4>
+                <ol>
+                    <li> <a href="http://localhost:3004/course">http://localhost:3004/course</a>
+                    </li>
+                    <li> <a href="http://localhost:3004/course/create">http://localhost:3004/course/create</a>
+                    </li>
+                    <li> <a href="http://localhost:3004/course/edit/112">http://localhost:3004/course/edit/112</a>
+                    </li>
+                    <li> <a
+                            href="http://localhost:3004/course/delete/113">http://localhost:3004/course/delete/113</a>
+                    </li>
+                    <li> <a
+                            href="http://localhost:3004/course/details/114">http://localhost:3004/course/details/114</a>
+                    </li>
+                </ol>
+
+            </div>
+        </div>
+    </main>
+    <hr>
+
+    <footer class="container">
+        <p>&copy; 2019 Web Apps Fall 2019</p>
+        <p class="text-muted"><a href="https://bitbucket.org/professorcase/node-express">Source</a></p>
+    </footer>
+
+    <!-- get from https://mdbootstrap.com/md-bootstrap-cdn/ -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js"></script>
 
 </body>
 

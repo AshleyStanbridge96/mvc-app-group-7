@@ -15,12 +15,12 @@ const router = express.Router()
 // Manage top-level request first
 router.get('/', (req, res, next) => {
   console.log('Request to /')
-  res.sendFile('index.ejs')
+  res.sendFile('index.html')
 })
 
 router.get('/index', (req, res, next) => {
   console.log('Request to /index')
-  res.sendFile('index.ejs')
+  res.sendFile('index.html')
 })
 
 
