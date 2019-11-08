@@ -5,6 +5,7 @@
   "author": "Group 7",
   "dependencies": {
     "config": "latest",
+    "ejs": "^2.7.1",
     "express": "latest",
     "lodash": "latest",
     "lodash.find": "latest",
