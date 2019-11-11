@@ -2,7 +2,7 @@
 
 const mongoose = require('mongoose')
 
-const DeveloperSchema = new mongoose.Schema({
+const StudentSchema = new mongoose.Schema({
 
   _id: {
     type: Number,
@@ -58,4 +58,4 @@ const DeveloperSchema = new mongoose.Schema({
   }
 
 })
-module.exports = mongoose.model('student', DeveloperSchema)
+module.exports = mongoose.model('student', StudentSchema)

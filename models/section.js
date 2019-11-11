@@ -3,7 +3,7 @@
 
 const mongoose = require('mongoose')
 
-const DeveloperSchema = new mongoose.Schema({
+const SectionSchema = new mongoose.Schema({
 
   _id: {
     type: Number,
@@ -43,4 +43,4 @@ const DeveloperSchema = new mongoose.Schema({
   }
 
 })
-module.exports = mongoose.model('Developer', DeveloperSchema)
+module.exports = mongoose.model('Developer', SectionSchema)
