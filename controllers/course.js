@@ -2,7 +2,7 @@
 *  Course controller
 *  Handles requests related to developer resources.
 *
-* @author Kelsie Dibben <s526819@nwmissouri.edu>
+* @author Group 7
 *
 */
 const express = require('express')
