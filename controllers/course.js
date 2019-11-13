@@ -1,8 +1,8 @@
 /**
-*  Developer controller
+*  Course controller
 *  Handles requests related to developer resources.
 *
-* @author Denise Case <dcase@nwmissouri.edu>
+* @author Kelsie Dibben <s526819@nwmissouri.edu>
 *
 */
 const express = require('express')
