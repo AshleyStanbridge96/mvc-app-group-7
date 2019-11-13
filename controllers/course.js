@@ -50,7 +50,7 @@ api.get('/create', (req, res) => {
   Model.find({}, (err, data) => {
     if (err) { return res.end('error on create') }
     res.locals.courses = data
-    res.locals.section = new Model()
+    res.locals.course = new Model()
     res.render('course/create')
   })
 })
