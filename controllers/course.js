@@ -2,7 +2,7 @@
 *  Course controller
 *  Handles requests related to developer resources.
 *
-* @author Group 7
+* @author Group7 
 *
 */
 const express = require('express')
@@ -50,7 +50,7 @@ api.get('/create', (req, res) => {
   Model.find({}, (err, data) => {
     if (err) { return res.end('error on create') }
     res.locals.courses = data
-    res.locals.course = new Model()
+    res.locals.section = new Model()
     res.render('course/create')
   })
 })
