@@ -1,0 +1,437 @@
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"error":{"errno":-2,"syscall":"stat","code":"ENOENT","path":"/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/public/images/favicon.ico"},"level":"error","message":"uncaughtException: ENOENT: no such file or directory, stat '/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/public/images/favicon.ico'\nError: ENOENT: no such file or directory, stat '/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/public/images/favicon.ico'\n    at Object.statSync (fs.js:855:3)\n    at resolveSync (/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/node_modules/serve-favicon/index.js:187:17)\n    at favicon (/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/node_modules/serve-favicon/index.js:61:12)\n    at Object.<anonymous> (/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/app.js:124:9)\n    at Module._compile (internal/modules/cjs/loader.js:778:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:585:3)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)\n    at startup (internal/bootstrap/node.js:283:19)\n    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)","stack":"Error: ENOENT: no such file or directory, stat '/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/public/images/favicon.ico'\n    at Object.statSync (fs.js:855:3)\n    at resolveSync (/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/node_modules/serve-favicon/index.js:187:17)\n    at favicon (/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/node_modules/serve-favicon/index.js:61:12)\n    at Object.<anonymous> (/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/app.js:124:9)\n    at Module._compile (internal/modules/cjs/loader.js:778:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:585:3)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)\n    at startup (internal/bootstrap/node.js:283:19)\n    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)","exception":true,"date":"Wed Nov 13 2019 10:18:45 GMT-0600 (Central Standard Time)","process":{"pid":80049,"uid":501,"gid":20,"cwd":"/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7","execPath":"/usr/local/bin/node","version":"v10.16.3","argv":["/usr/local/bin/node","/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/app.js"],"memoryUsage":{"rss":53657600,"heapTotal":37470208,"heapUsed":22417144,"external":19406454}},"os":{"loadavg":[0.8837890625,1.8125,2.0263671875],"uptime":938171},"trace":[{"column":3,"file":"fs.js","function":"Object.statSync","line":855,"method":"statSync","native":false},{"column":17,"file":"/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/node_modules/serve-favicon/index.js","function":"resolveSync","line":187,"method":null,"native":false},{"column":12,"file":"/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/node_modules/serve-favicon/index.js","function":"favicon","line":61,"method":null,"native":false},{"column":9,"file":"/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/app.js","function":null,"line":124,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":778,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":789,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":653,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":593,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":585,"method":"_load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module.runMain","line":831,"method":"runMain","native":false},{"column":19,"file":"internal/bootstrap/node.js","function":"startup","line":283,"method":null,"native":false},{"column":3,"file":"internal/bootstrap/node.js","function":"bootstrapNodeJSCore","line":622,"method":null,"native":false}]}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true\n","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"error":{"errno":-2,"syscall":"stat","code":"ENOENT","path":"/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/public/images/favicon.ico"},"level":"error","message":"uncaughtException: ENOENT: no such file or directory, stat '/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/public/images/favicon.ico'\nError: ENOENT: no such file or directory, stat '/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/public/images/favicon.ico'\n    at Object.statSync (fs.js:855:3)\n    at resolveSync (/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/node_modules/serve-favicon/index.js:187:17)\n    at favicon (/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/node_modules/serve-favicon/index.js:61:12)\n    at Object.<anonymous> (/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/app.js:124:9)\n    at Module._compile (internal/modules/cjs/loader.js:778:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:585:3)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)\n    at startup (internal/bootstrap/node.js:283:19)\n    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)","stack":"Error: ENOENT: no such file or directory, stat '/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/public/images/favicon.ico'\n    at Object.statSync (fs.js:855:3)\n    at resolveSync (/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/node_modules/serve-favicon/index.js:187:17)\n    at favicon (/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/node_modules/serve-favicon/index.js:61:12)\n    at Object.<anonymous> (/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/app.js:124:9)\n    at Module._compile (internal/modules/cjs/loader.js:778:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:585:3)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)\n    at startup (internal/bootstrap/node.js:283:19)\n    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)","exception":true,"date":"Wed Nov 13 2019 10:23:41 GMT-0600 (Central Standard Time)","process":{"pid":80155,"uid":501,"gid":20,"cwd":"/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7","execPath":"/usr/local/bin/node","version":"v10.16.3","argv":["/usr/local/bin/node","/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/app.js"],"memoryUsage":{"rss":53841920,"heapTotal":37470208,"heapUsed":22477904,"external":19254401}},"os":{"loadavg":[1.0634765625,1.3427734375,1.734375],"uptime":938467},"trace":[{"column":3,"file":"fs.js","function":"Object.statSync","line":855,"method":"statSync","native":false},{"column":17,"file":"/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/node_modules/serve-favicon/index.js","function":"resolveSync","line":187,"method":null,"native":false},{"column":12,"file":"/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/node_modules/serve-favicon/index.js","function":"favicon","line":61,"method":null,"native":false},{"column":9,"file":"/Users/KelsieDibben/Documents/Senior Year Semester One/Web Apps/Projects/mvc-app-group-7/app.js","function":null,"line":124,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":778,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":789,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":653,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":593,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":585,"method":"_load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module.runMain","line":831,"method":"runMain","native":false},{"column":19,"file":"internal/bootstrap/node.js","function":"startup","line":283,"method":null,"native":false},{"column":3,"file":"internal/bootstrap/node.js","function":"bootstrapNodeJSCore","line":622,"method":null,"native":false}]}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true\n","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true\n","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /","level":"debug"}
+{"message":"GET /","level":"debug"}
+{"message":"GET /student","level":"debug"}
+{"message":"GET /student/create","level":"debug"}
+{"message":"GET /section/edit/119","level":"debug"}
+{"message":"GET /student","level":"debug"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true\n","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /","level":"debug"}
+{"message":"GET /student","level":"debug"}
+{"message":"GET /course","level":"debug"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true\n","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"GET /course/create","level":"debug"}
+{"message":"GET /customer","level":"debug"}
+{"message":"GET /course","level":"debug"}
+{"message":"GET /favicon.ico","level":"debug"}
+{"message":"GET /course","level":"debug"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true\n","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"GET /course/create","level":"debug"}
+{"message":"GET /course/edit/112","level":"debug"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true\n","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /course/create","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course/delete/113","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true\n","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /course/create","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /crs/findall","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /stu/findall","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true\n","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /","level":"debug"}
+{"message":"GET /student/findall","level":"debug"}
+{"message":"GET /student/findone/100","level":"debug"}
+{"message":"GET /course","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true\n","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /student/findall","level":"debug"}
+{"message":"GET /newpage","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /student/findone/102","level":"debug"}
+{"message":"GET /instructor/findone/106","level":"debug"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true\n","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true\n","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /student/findall","level":"debug"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true\n","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /course/edit/112","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"schoolNumber\":\"School number\",\"courseNumber\":\"Course number\",\"_id\":112,\"School number\":\"44\",\"Course number\":\"563\",\"Name\":\"Developing Web Apps and Services\",\"inSpring\":true,\"inSummer\":false,\"inFall\":true}]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course/details/114","level":"debug"}
+{"message":"Handling GET /details/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"schoolNumber\":\"School number\",\"courseNumber\":\"Course number\",\"_id\":114,\"School number\":\"44\",\"Course number\":\"242\",\"Name\":\"Data Structures\",\"inSpring\":true,\"inSummer\":false,\"inFall\":true}]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /student/findone/100","level":"debug"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true\n","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true\n","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course/edit/112","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"schoolNumber\":\"School number\",\"courseNumber\":\"Course number\",\"_id\":112,\"School number\":\"44\",\"Course number\":\"563\",\"Name\":\"Developing Web Apps and Services\",\"inSpring\":true,\"inSummer\":false,\"inFall\":true}]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course/details/114","level":"debug"}
+{"message":"Handling GET /details/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"schoolNumber\":\"School number\",\"courseNumber\":\"Course number\",\"_id\":114,\"School number\":\"44\",\"Course number\":\"242\",\"Name\":\"Data Structures\",\"inSpring\":true,\"inSummer\":false,\"inFall\":true}]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true\n","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true\n","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course/details/117","level":"debug"}
+{"message":"Handling GET /details/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"_id\":117,\"School number\":\"44\",\"Course number\":\"460\",\"Name\":\"Database Systems\",\"inSpring\":true,\"inSummer\":false,\"inFall\":true}]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course?","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /section","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /student","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true\n","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /course/edit/112","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"_id\":112,\"School number\":\"44\",\"Course number\":\"563\",\"Name\":\"Developing Web Apps and Services\",\"inSpring\":true,\"inSummer\":false,\"inFall\":true}]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course?","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course?","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true\n","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course/details/112","level":"debug"}
+{"message":"Handling GET /details/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"_id\":112,\"School number\":\"44\",\"Course number\":\"563\",\"Name\":\"Developing Web Apps and Services\",\"inSpring\":true,\"inSummer\":false,\"inFall\":true}]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /student/findall","level":"debug"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true\n","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course/delete/117","level":"debug"}
+{"message":"Handling GET /delete/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"_id\":117,\"School number\":\"44\",\"Course number\":\"460\",\"Name\":\"Database Systems\",\"inSpring\":true,\"inSummer\":false,\"inFall\":true}]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course?","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course/details/117","level":"debug"}
+{"message":"Handling GET /details/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"_id\":117,\"School number\":\"44\",\"Course number\":\"460\",\"Name\":\"Database Systems\",\"inSpring\":true,\"inSummer\":false,\"inFall\":true}]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course?","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course/edit/117","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"_id\":117,\"School number\":\"44\",\"Course number\":\"460\",\"Name\":\"Database Systems\",\"inSpring\":true,\"inSummer\":false,\"inFall\":true}]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course?","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /crs/findall","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /stu/findall","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /crs/findall","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true\n","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /crs/findall","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true\n","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /course/findall","level":"debug"}
+{"message":"Handling /findall [object Object]","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Summer_1@cluster0-gck6s.mongodb.net/test?retryWrites=true\n","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}
+{"message":"GET /student/findall","level":"debug"}
+{"message":"GET /student/findone/100","level":"debug"}
+{"message":"GET /instructor/findall","level":"debug"}
+{"message":"GET /course/findone/113","level":"debug"}
+{"message":"Handling /findone [object Object]","level":"info"}
+{"message":"GET /course/findone/114","level":"debug"}
+{"message":"Handling /findone [object Object]","level":"info"}
+{"message":"GET /student/findone/101","level":"debug"}
+{"message":"GET /course/findone/112","level":"debug"}
+{"message":"Handling /findone [object Object]","level":"info"}
+{"message":"GET /newpage","level":"debug"}
+{"message":"GET /css/main.css","level":"debug"}

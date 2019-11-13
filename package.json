@@ -4,13 +4,28 @@
   "version": "1.0.0",
   "author": "Group 7",
   "dependencies": {
-    "config": "latest",
-    "ejs": "^2.7.1",
+    "array-flatten": "latest",
+    "async": "latest",
+    "body-parser": "latest",
+    "chalk": "latest",
+    "cookie-parser": "latest",
+    "consolidate": "latest",
+    "dotenv": "latest",
+    "ejs": "latest",
+    "errorhandler": "latest",
     "express": "latest",
+    "express-ejs-layouts": "latest",
+    "express-validator": "latest",
+    "helmet": "latest",
     "lodash": "latest",
     "lodash.find": "latest",
+    "mongodb": "^3.2.3",
     "mongoose": "latest",
-    "nedb": "latest"
+    "morgan": "latest",
+    "request": "latest",
+    "serve-favicon": "latest",
+    "sort-package-json": "latest",
+    "winston": "latest"
   },
   "devDependencies": {
     "eslint": "latest",
@@ -19,7 +34,6 @@
     "eslint-plugin-node": "latest",
     "eslint-plugin-promise": "latest",
     "eslint-plugin-standard": "latest",
-    "eslint-plugin-vue": "latest",
     "nodemon": "latest"
   },
   "keywords": [

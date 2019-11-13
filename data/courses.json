@@ -1,54 +1,54 @@
 [
     {
         "_id": 112, 
-        "School number": "44",
-        "Course number": "563",
-        "Name": "Developing Web Apps and Services",
+        "schoolNumber": "44",
+        "courseNumber": "563",
+        "name": "Developing Web Apps and Services",
         "inSpring": true,
         "inSummer": false,
         "inFall": true
     },
     {
         "_id": 113, 
-        "School number": "44",
-        "Course number": "141",
-        "Name": "Computer Programming I",
+        "schoolNumber": "44",
+        "courseNumber": "141",
+        "name": "Computer Programming I",
         "inSpring": true,
         "inSummer": true,
         "inFall": true
     },
     {
         "_id": 114, 
-        "School number": "44",
-        "Course number": "242",
-        "Name": "Data Structures",
+        "schoolNumber": "44",
+        "courseNumber": "242",
+        "name": "Data Structures",
         "inSpring": true,
         "inSummer": false,
         "inFall": true
     },
     {
         "_id": 115, 
-        "School number": "44",
-        "Course number": "345",
-        "Name": "Computer Organization",
+        "schoolNumber": "44",
+        "courseNumber": "345",
+        "name": "Computer Organization",
         "inSpring": true,
         "inSummer": false,
         "inFall": false
     },
     {
         "_id": 116, 
-        "School number": "44",
-        "Course number": "356",
-        "Name": "Network Fundamentals",
+        "schoolNumber": "44",
+        "courseNumber": "356",
+        "name": "Network Fundamentals",
         "inSpring": true,
         "inSummer": false,
         "inFall": true
     },
     {
         "_id": 117, 
-        "School number": "44",
-        "Course number": "460",
-        "Name": "Database Systems",
+        "schoolNumber": "44",
+        "courseNumber": "460",
+        "name": "Database Systems",
         "inSpring": true,
         "inSummer": false,
         "inFall": true

@@ -14,14 +14,12 @@ const CourseSchema = new mongoose.Schema({
     minlength: 2,
     maxlength: 2,
     required: true,
-    default: 'School number'
   },
   courseNumber: {
     type: String,
     minlength: 3,
     maxlength: 3,
     required: true,
-    default: 'Course number'
   },
   name: {
     type: String,
