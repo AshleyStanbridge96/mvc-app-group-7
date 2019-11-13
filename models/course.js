@@ -17,8 +17,6 @@ const CourseSchema = new mongoose.Schema({
   },
   courseNumber: {
     type: String,
-    minlength: 3,
-    maxlength: 3,
     required: true,
   },
   name: {
