@@ -1,1 +1,26 @@
-<p>Inside details course view</p>
+
+<br>
+<br>
+<div class="container-fluid">
+  <div class=row>
+    <div class="col col-md-12">
+
+      <h2>Student details</h2>
+      <br>
+      <br> ID: <%=student._id%>
+          <br> Given: <%=student.given%>
+          <br> Family: <%=student.family%>
+          <br> Email: <%=student.email%>
+          <br> Gpa: <%=student.gpa%>
+          <br> Github: <%=student.github%>
+          <br> Website: <%=student.website%>
+          <br> SectionId: <%=student.sectionId%>
+      <hr>
+
+      <form method="get" action="/student">
+        <input type="submit" value="Return to list" class="btn btn-caution" />
+      </form>
+
+    </div>
+  </div>
+</div>
