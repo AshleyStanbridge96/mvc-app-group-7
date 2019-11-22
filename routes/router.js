@@ -20,6 +20,7 @@ router.get('/index', (req, res, next) => {
 })
 
 // Route requests that start with an expression to a controller
+router.use('/about', require('../controllers/about.js'))
 router.use('/instructor', require('../controllers/instructor.js'))
 router.use('/course', require('../controllers/course.js'))
 router.use('/section', require('../controllers/section.js'))
